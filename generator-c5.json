@@ -1,0 +1,1 @@
+{"fieldproperties":{"fields":[{"required":false,"type":"input","key":"DevelopmentBaseUrl"}]},"pblockname":"Environment Detecter","pblockdesc":"Detects which environment is currently being used (i.e development or production)","pautopkg":true,"pkginstall":false,"pkgcli":true,"pkgdesc":"Environment Detecter Package"}

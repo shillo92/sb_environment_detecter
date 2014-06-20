@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Environment Detecter\n"
+"POT-Creation-Date: 2014-06-20 13:11+0200\n"
+"PO-Revision-Date: 2014-06-20 13:11+0200\n"
+"Last-Translator: Shillo <sshilo@gmail.com>\n"
+"Language-Team: Shillo Ben David <sshilo@gmail.com>\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: t\n"
+"X-Poedit-SearchPath-0: /Applications/mampstack-5.4.17-0/apache2/htdocs/"
+"Magen2001/packages/sb_environment_detecter\n"
+
+#: /Applications/mampstack-5.4.17-0/apache2/htdocs/Magen2001/packages/sb_environment_detecter/blocks/environment_detecter/controller.php:20
+msgid "EnvironmentDetecter"
+msgstr "EnvironmentDetecter"
+
+#: /Applications/mampstack-5.4.17-0/apache2/htdocs/Magen2001/packages/sb_environment_detecter/blocks/environment_detecter/controller.php:24
+msgid ""
+"Detects which environment is currently being used (i.e development or "
+"production)"
+msgstr "מזהה איזו סביבה בשימוש (לדוגמא: סביבת פיתוח או סביבת ריצה)"
+
+#: /Applications/mampstack-5.4.17-0/apache2/htdocs/Magen2001/packages/sb_environment_detecter/blocks/environment_detecter/form.php:9
+#, fuzzy
+msgid "environment_detecter.label.DevelopmentBaseUrl"
+msgstr "החלף סביבה"
+
+#: /Applications/mampstack-5.4.17-0/apache2/htdocs/Magen2001/packages/sb_environment_detecter/controller.php:2
+#: /Applications/mampstack-5.4.17-0/apache2/htdocs/Magen2001/packages/sb_environment_detecter/envsetup.php:2
+#: /Applications/mampstack-5.4.17-0/apache2/htdocs/Magen2001/packages/sb_environment_detecter/tools/switchenvironment_toolbar_button.php:2
+msgid "Access Denied."
+msgstr "גישה נדחתה."
+
+#: /Applications/mampstack-5.4.17-0/apache2/htdocs/Magen2001/packages/sb_environment_detecter/controller.php:27
+#, php-format
+msgid "Switch Environment (%s)"
+msgstr "החלף סביבה (%s)"
+
+#: /Applications/mampstack-5.4.17-0/apache2/htdocs/Magen2001/packages/sb_environment_detecter/controller.php:28
+msgid "Switch Environment"
+msgstr "החלף סביבה"
+
+#: /Applications/mampstack-5.4.17-0/apache2/htdocs/Magen2001/packages/sb_environment_detecter/controller.php:67
+msgid "Environment Detecter"
+msgstr "Environment Detecter"
+
+#: /Applications/mampstack-5.4.17-0/apache2/htdocs/Magen2001/packages/sb_environment_detecter/controller.php:72
+msgid ""
+"Detects which environment is currently being used (i.e development or "
+"production) Package"
+msgstr "מזהה איזו סביבה בשימוש (לדוגמא: סביבת פיתוח או סביבת ריצה)"
+
+#: /Applications/mampstack-5.4.17-0/apache2/htdocs/Magen2001/packages/sb_environment_detecter/tools/switchenvironment_toolbar_button.php:15
+#, php-format
+msgid "Currently used environment: <b>%s</b>"
+msgstr "סביבת שבשימוש כעת: <b>%s</b>"
+
+#: /Applications/mampstack-5.4.17-0/apache2/htdocs/Magen2001/packages/sb_environment_detecter/tools/switchenvironment_toolbar_button.php:18
+msgid "Switch to production"
+msgstr "החלף לסביבת ריצה"
+
+#: /Applications/mampstack-5.4.17-0/apache2/htdocs/Magen2001/packages/sb_environment_detecter/tools/switchenvironment_toolbar_button.php:19
+msgid "Switch to development"
+msgstr "החלף לסביבת פיתוח"
+
+#: /Applications/mampstack-5.4.17-0/apache2/htdocs/Magen2001/packages/sb_environment_detecter/tools/switchenvironment_toolbar_button.php:25
+msgid "Close"
+msgstr "סגור"
