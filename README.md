@@ -23,6 +23,20 @@ $ volo install shillo92/sb_environment_detecter
 
 Where **myconcrete5site** is the path to your, well, Concrete5 site.
 
+After you cloned the package, you'll need to install it through the dashboard using the Concrete5 Installer.
+Since the package messes with the config/site.php file and since the configurations are loaded before any package, you'll have to call a function to detect & load the appropriate environment. It can be done using CLI or by adding the following code at the start of your config/site.php file:
+```php
+require DIR_BASE.'/packages/sb_environment_detecter/envsetup.php';
+if (SbEnvironmentDetecter_setupEnvironment()->getContext() instanceof EnvironmentDetecter_EnvironmentContext_Production) {
+    return;
+}
+```
+
+####Using the envdet CLI
+1. Open you'r shell application (e.g Terminal).
+2. **cd** into the package's folder.
+3. Run **php envdet setupSiteConfig**.
+
 ###How it works
 If the package is installed correctly, at first session of the website the package will automatically setup the **config/environment.php** (if not already exists), detect if the website runs on development or production. If the package detected that the running environment is **production**, a **config/production** folder with a file called **site.php** is created.
 
