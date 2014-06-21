@@ -8,7 +8,7 @@ This Concrete5 package eases developers manage the site settings for **productio
 It creates an **environment.php** file (in the config folder) which provides the package with description of the available environments (production/development).
 
 ###Installation
-The package can be easily installed via the Concrete5 CMS installer or by simply cloning this repo into your concrete site's **packages** folder (There's no need for the official concrete5 installation).
+The package can be easily installed by cloning this repo into your **packages** folder and install it via the Concrete5 CMS installer.
 
 ###How it works
 If the package is installed correctly, at first session of the website the package will automatically setup the **config/environment.php** (if not already exists), detect if the website runs on development or production. If the package detected that the running environment is **production**, a **config/production** folder with a file called **site.php** is created.
