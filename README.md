@@ -32,7 +32,7 @@ if (SbEnvironmentDetecter_setupEnvironment()->getContext() instanceof Environmen
 }
 ```
 
-####Using the envdet CLI
+####Adding the code via the envdet CLI
 1. Open you'r shell application (e.g Terminal).
 2. **cd** into the package's folder.
 3. Run **php envdet setupSiteConfig**.
