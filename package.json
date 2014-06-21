@@ -1,0 +1,35 @@
+{
+  "name": "Environment Detecter",
+  "description": "Concrete5 add-on for detecting which environment is currently being used (i.e development or production)",
+  "version": "0.1",
+  "keywords": [
+    "Concrete5",
+    "Add-on",
+    "Environment",
+    "Detection",
+    "Production",
+    "Development"
+  ],
+  "maintainers": [
+    {
+      "name": "Shillo Ben David",
+      "email": "sshilo@gmail.com",
+      "web": "http://shillogiveaways.blogspot.co.il"
+    }
+  ],
+  "dependencies": {
+    "https://github.com/concrete5/concrete5": ""
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/shillo92/sb_environment_detecter.git"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "GPLv2",
+      "url": "https://github.com/shillo92/sb_environment_detecter/blob/master/LICENSE"
+    }
+  ]
+}
