@@ -77,12 +77,7 @@ class SbEnvironmentDetecterPackage extends Package
   public function install()
   {
 
-    $pkg = parent::install();
-    if(!empty($this->blockHandles)) {
-      foreach ($this->blockHandles as $blockHandle) {
-        BlockType::installBlockTypeFromPackage($blockHandle, $pkg);
-      };
-    }
+    parent::install();
   }
 
   public function upgrade()
@@ -90,17 +85,7 @@ class SbEnvironmentDetecterPackage extends Package
 
     parent::upgrade();
 
-    Loader::model('block_types');
-    $pkg = parent::getByHandle($this->pkgHandle);
-
-    if(!empty($this->blockHandles)) {
-      foreach ($this->blockHandles as $blockHandle) {
-        if(!is_object(BlockType::getByHandle($blockHandle)))
-        {
-          BlockType::installBlockTypeFromPackage($blockHandle, $pkg);
-        }
-      }
-    }
+    
   }
 
 
