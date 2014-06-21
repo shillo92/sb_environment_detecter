@@ -10,6 +10,19 @@ It creates an **environment.php** file (in the config folder) which provides the
 ###Installation
 The package can be easily installed by cloning this repo into your **packages** folder and install it via the Concrete5 CMS installer.
 
+####Using Git
+```shell
+$ git clone https://github.com/shillo92/sb_environment_detecter.git myconcrete5site/packages
+```
+
+####Using Volo
+```shell
+$ cd myconcrete5site/packages
+$ volo install shillo92/sb_environment_detecter
+```
+
+Where **myconcrete5site** is the path to your, well, Concrete5 site.
+
 ###How it works
 If the package is installed correctly, at first session of the website the package will automatically setup the **config/environment.php** (if not already exists), detect if the website runs on development or production. If the package detected that the running environment is **production**, a **config/production** folder with a file called **site.php** is created.
 
